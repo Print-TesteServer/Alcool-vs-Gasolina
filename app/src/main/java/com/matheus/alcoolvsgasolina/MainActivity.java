@@ -36,11 +36,11 @@ public class MainActivity extends AppCompatActivity {
          */
         Double resultado = precoAlcool/precoGasolina;
 
-        if(resultado>=0.85){
-            textResultado.setText("Melhor ultilizar GASOLINA!");
+        if(resultado<=0.85){
+            textResultado.setText("Melhor ultilizar ÁLCOOL!");
         }
         else{
-            textResultado.setText("Melhor ultilizar ÁLCOOL!");
+            textResultado.setText("Melhor ultilizar GASOLINA!");
         }
     }
 }
