@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText editPrecoAlcool;
     private EditText editPrecoGasolina;
     private TextView textResultado;
+    private Button buttonBluetooth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         editPrecoAlcool = findViewById(R.id.editAlcool);
         editPrecoGasolina = findViewById(R.id.editGasolina);
         textResultado = findViewById(R.id.textResultado);
+        buttonBluetooth = findViewById(R.id.buttonBluetooth);
 
     }
     public void calcularPreco(View view){
